@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2</title>
+
+    <style>
+        .form{
+            background-color: grey;
+            padding: 15px;
+            justify-content: center;
+            width: 250px;
+            height: 400px;
+            margin-left: 37.5%;
+            text-align: center  ;
+            border-radius: 15px;
+        }
+        input{
+            border-radius: 5px;
+            margin: 5px;
+            width: 90%;
+            height: 20px;
+        }
+        textarea{
+            border-radius: 5px;
+            margin: 5px;
+            width: 90%;
+        }
+        .form h2{
+            margin-bottom: 50px;
+            color: white;
+            font-size:xx-large;
+            font-family: sans-serif;
+        }
+        #submit{
+            background-color: rgb(201, 113, 30);
+            width: 100px;
+            height: auto;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .link{
+            background-color: crimson;
+            width: 70px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin:15px auto auto 80%;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Latihan 2</h2>
+    <div class="form">
+    <h2>Contact Us</h2>
+    <form action="/tugas%202/proses.php" method="post" target="_blank">
+        <label for="Name"></label>
+        <input placeholder="Masukan Nama Anda" type="text" name="Name"><br>
+        <label for="mail"></label>
+        <input placeholder="Masukan Email Anda" type="email" name="Email"><br>
+        <label for="isi"></label>
+        <textarea placeholder="Masukan Pesan....." rows="5" name="Pesan"></textarea><br>
+        <button type="submit" name="submit" id="submit">Submit </button>
+    </form>
+</div>
+<div class="link">
+    <a href="/tugas%202/Tugas2-1.html"> Latihan 1</a>
+    </div>
+
+</body>
+</html>
